@@ -2,7 +2,7 @@
   "name": "HelloWorld1",
   "version": "0.0.1",
   "type": "flogo:activity",
-  "ref": "github.com/viveksatasiya/activity",
+  "ref": "https://github.com/viveksatasiya/activity",
   "description": "activity description",
   "author": "Vivek <you.name@example.org>",
   "inputs":[
