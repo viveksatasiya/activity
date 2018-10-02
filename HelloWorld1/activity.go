@@ -5,8 +5,12 @@ import (
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
 
+var activityLog = logger.GetLogger("activity-flogo-HelloWorld1")
+
 func init() {
+	activityLog.SetLogLevel(logger.InfoLevel)
 	logger.Debugf("Configuration Loaded")
+	activityLog.Info("Configuration Loaded")
 }
 
 // MyActivity is a stub for your Activity implementation
