@@ -1,0 +1,24 @@
+{
+  "name": "myTimer",
+  "version": "0.0.1",
+  "type": "flogo:trigger",
+  "ref":"https://github.com/viveksatasiya/activity/myTimer",
+  "description": "trigger description",
+  "author": "Your Name <you.name@example.org>",
+  "settings":[
+  ],
+  "output": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ],
+  "handler": {
+    "settings": [
+      {
+        "name": "handler_setting",
+        "type": "string"
+      }
+    ]
+  }
+}

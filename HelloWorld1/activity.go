@@ -5,6 +5,10 @@ import (
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
 
+func init() {
+	logger.Debugf("Configuration Loaded")
+}
+
 // MyActivity is a stub for your Activity implementation
 type MyActivity struct {
 	metadata *activity.Metadata
